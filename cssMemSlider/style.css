@@ -22,12 +22,14 @@ body {
   min-height: 100vh;
 
   display: flex;
+
   justify-content: center;
   align-items: center;
 }
 
 .carousel {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -53,9 +55,13 @@ body {
   display: flex;
   flex-direction: column;
 
-  min-width: 100%;
+  flex: 1 0 100%;
 
   scroll-snap-align: center;
+}
+
+.slide .meme-img {
+  width: 100%;
 }
 
 .nav {
