@@ -17,35 +17,57 @@
     <title>css-mem-slider</title>
   </head>
   <body>
-    <section class="carousel">
+    <div class="carousel">
       <ul class="viewport">
         <li id="slide-1" class="slide">
-          <img
-            src="./assets/img/to-meme-or-not-to-meme.jpg"
-            alt="To meme or not to meme? That is the question."
-            class="meme-img"
-          />
+          <div class="meme-img">
+            <img src="./assets/img/to-meme-or-not-to-meme.jpg" alt="To meme or not to meme? That is the question." />
+          </div>
           <p class="meme-text">To meme or not to meme? That is the question.</p>
+          <div class="nav">
+            <a class="nav__link nav__link_active" href="javascript:void(0);"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-2"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-3"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-4"><div class="nav__link-inner"></div></a>
+          </div>
         </li>
         <li id="slide-2" class="slide">
-          <img src="./assets/img/bean-meme.jpg" alt="That sounds like a bad idea. Let's do it." class="meme-img" />
+          <div class="meme-img">
+            <img src="./assets/img/bean-meme.jpg" alt="That sounds like a bad idea. Let's do it." />
+          </div>
           <p class="meme-text">That sounds like a bad idea. Let's do it.</p>
+          <div class="nav">
+            <a class="nav__link" href="#slide-1"><div class="nav__link-inner"></div></a>
+            <a class="nav__link nav__link_active" href="javascript:void(0);"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-3"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-4"><div class="nav__link-inner"></div></a>
+          </div>
         </li>
         <li id="slide-3" class="slide">
-          <img src="./assets/img/minion-meme.jpg" alt="Here is a minion meme. You deserve it." class="meme-img" />
+          <div class="meme-img">
+            <img src="./assets/img/minion-meme.jpg" alt="Here is a minion meme. You deserve it." />
+          </div>
           <p class="meme-text">Here is a minion meme. You deserve it.</p>
+          <div class="nav">
+            <a class="nav__link" href="#slide-1"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-2"><div class="nav__link-inner"></div></a>
+            <a class="nav__link nav__link_active" href="javascript:void(0);"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-4"><div class="nav__link-inner"></div></a>
+          </div>
         </li>
         <li id="slide-4" class="slide">
-          <img src="./assets/img/what-is-a-meme.jpg" alt="One doesn't simply understand all memes." class="meme-img" />
+          <div class="meme-img">
+            <img src="./assets/img/what-is-a-meme.jpg" alt="One doesn't simply understand all memes." />
+          </div>
           <p class="meme-text">One doesn't simply understand all memes.</p>
+          <div class="nav">
+            <a class="nav__link" href="#slide-1"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-2"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-3"><div class="nav__link-inner"></div></a>
+            <a class="nav__link nav__link_active" href="javascript:void(0);"><div class="nav__link-inner"></div></a>
+          </div>
         </li>
       </ul>
-      <aside class="nav">
-        <a class="nav__link" href="#slide-1"><div class="nav__link_inner"></div></a>
-        <a class="nav__link" href="#slide-2"><div class="nav__link_inner"></div></a>
-        <a class="nav__link" href="#slide-3"><div class="nav__link_inner"></div></a>
-        <a class="nav__link" href="#slide-4"><div class="nav__link_inner"></div></a>
-      </aside>
-    </section>
+    </div>
   </body>
 </html>
