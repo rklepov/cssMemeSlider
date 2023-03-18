@@ -1,5 +1,5 @@
 # CSS Mem Slider
 
-[Task](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/css-mem-slider)
+[Task](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/css-meme-slider)
 
-[Deploy](https://rklepov.github.io/cssMemSlider/cssMemSlider/index.html)
+[Deploy](https://rklepov.github.io/cssMemeSlider/cssMemeSlider/index.html)
