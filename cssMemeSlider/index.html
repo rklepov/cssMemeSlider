@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./assets/styles/normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon" />
+
+    <!-- roboto Light 300 Regular 400 Black 900 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet" />
+
+    <title>css-meme-slider</title>
+  </head>
+  <body>
+    <div class="carousel">
+      <ul class="viewport">
+        <li id="slide-1" class="slide">
+          <div class="meme-img">
+            <img src="./assets/img/to-meme-or-not-to-meme.jpg" alt="To meme or not to meme? That is the question." />
+          </div>
+          <p class="meme-text">To meme or not to meme? That is the question.</p>
+          <div class="nav">
+            <a class="nav__link nav__link_active" href="javascript:void(0);"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-2"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-3"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-4"><div class="nav__link-inner"></div></a>
+          </div>
+        </li>
+        <li id="slide-2" class="slide">
+          <div class="meme-img">
+            <img src="./assets/img/bean-meme.jpg" alt="That sounds like a bad idea. Let's do it." />
+          </div>
+          <p class="meme-text">That sounds like a bad idea. Let's do it.</p>
+          <div class="nav">
+            <a class="nav__link" href="#slide-1"><div class="nav__link-inner"></div></a>
+            <a class="nav__link nav__link_active" href="javascript:void(0);"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-3"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-4"><div class="nav__link-inner"></div></a>
+          </div>
+        </li>
+        <li id="slide-3" class="slide">
+          <div class="meme-img">
+            <img src="./assets/img/minion-meme.jpg" alt="Here is a minion meme. You deserve it." />
+          </div>
+          <p class="meme-text">Here is a minion meme. You deserve it.</p>
+          <div class="nav">
+            <a class="nav__link" href="#slide-1"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-2"><div class="nav__link-inner"></div></a>
+            <a class="nav__link nav__link_active" href="javascript:void(0);"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-4"><div class="nav__link-inner"></div></a>
+          </div>
+        </li>
+        <li id="slide-4" class="slide">
+          <div class="meme-img">
+            <img src="./assets/img/what-is-a-meme.jpg" alt="One doesn't simply understand all memes." />
+          </div>
+          <p class="meme-text">One doesn't simply understand all memes.</p>
+          <div class="nav">
+            <a class="nav__link" href="#slide-1"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-2"><div class="nav__link-inner"></div></a>
+            <a class="nav__link" href="#slide-3"><div class="nav__link-inner"></div></a>
+            <a class="nav__link nav__link_active" href="javascript:void(0);"><div class="nav__link-inner"></div></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
